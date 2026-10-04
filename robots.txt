@@ -1,0 +1,6 @@
+# Keep this permissive. Ahmia and most onion crawlers respect robots.txt,
+# so a Disallow here would get the service excluded from search indexes.
+User-agent: *
+Allow: /
+
+Sitemap: https://onionplaynetwork.github.io/sitemap.xml
